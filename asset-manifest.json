@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/totalcolud-food/static/css/main.51658954.chunk.css",
+    "main.js": "/totalcolud-food/static/js/main.fc4c54b0.chunk.js",
+    "main.js.map": "/totalcolud-food/static/js/main.fc4c54b0.chunk.js.map",
+    "runtime-main.js": "/totalcolud-food/static/js/runtime-main.1323c44d.js",
+    "runtime-main.js.map": "/totalcolud-food/static/js/runtime-main.1323c44d.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/totalcolud-food/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.4e66ac61.chunk.js": "/totalcolud-food/static/js/2.4e66ac61.chunk.js",
+    "static/js/2.4e66ac61.chunk.js.map": "/totalcolud-food/static/js/2.4e66ac61.chunk.js.map",
+    "index.html": "/totalcolud-food/index.html",
+    "precache-manifest.bdf66d90878789685318783778f85c15.js": "/totalcolud-food/precache-manifest.bdf66d90878789685318783778f85c15.js",
+    "service-worker.js": "/totalcolud-food/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "/totalcolud-food/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.51658954.chunk.css.map": "/totalcolud-food/static/css/main.51658954.chunk.css.map",
+    "static/media/style.module.css": "/totalcolud-food/static/media/img1.239d7a89.png",
+    "static/media/styles.module.css": "/totalcolud-food/static/media/ivan-torres-MQUqbmszGGM-unsplash.7d2b44f8.jpg",
+    "static/media/list1.png": "/totalcolud-food/static/media/list1.76344adc.png",
+    "static/media/list2.jpg": "/totalcolud-food/static/media/list2.8acb04d4.jpg",
+    "static/media/list3.jpg": "/totalcolud-food/static/media/list3.9e19ac15.jpg",
+    "static/media/list4.jpg": "/totalcolud-food/static/media/list4.56a3928a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1323c44d.js",
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.4e66ac61.chunk.js",
+    "static/css/main.51658954.chunk.css",
+    "static/js/main.fc4c54b0.chunk.js"
+  ]
+}
