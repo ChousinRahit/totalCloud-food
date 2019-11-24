@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:700&display=swap&subset=latin-ext");
+
+.pizzaBackCom {
+  background: url("../../assets/img1.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+}
+
+.whiteShapeBack {
+  position: relative;
+}
+
+.header {
+  width: 88%;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  top: 64px;
+  left: 140px;
+  width: 263px;
+  height: 43px;
+  text-align: left;
+  font: Bold 33px/48px Semplicità;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.nav_links {
+  list-style: none;
+  padding-top: 20px;
+  margin-left: 90px;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 50px;
+  letter-spacing: 0;
+  opacity: 1;
+}
+.nav_links li a {
+  transition: all 0.1s ease 0s;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav_links li a:hover {
+  border-bottom: #f8a22f solid 2px;
+  padding-bottom: 4px;
+}
+
+.button_cu {
+  padding: 9px 25px;
+  background: #f8a22f 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  border-radius: 50px !important;
+}
+
+.button_cu:hover {
+  background-color: #f8a12fc2;
+}
+
+.logo > span {
+  color: #f8a22f;
+}
+
+.downArrow {
+  width: 20px;
+  color: #f8a22f;
+  position: absolute;
+  left: 48%;
+  top: 94%;
+}
+

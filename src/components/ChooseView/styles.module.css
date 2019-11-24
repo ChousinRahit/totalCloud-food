@@ -1,0 +1,88 @@
+.ChooseView_wrapper {
+  background: url("../../assets/ivan-torres-MQUqbmszGGM-unsplash.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.overlaybg {
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.cardHeading {
+  text-align: center;
+  font-size: 22px;
+}
+.chooseRow {
+  padding-top: 100px;
+}
+
+.cardView {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px;
+}
+
+.img_list {
+  width: 80px;
+}
+.listText {
+  padding: 25px;
+  padding-left: 5px;
+  color: rgb(115, 114, 114) !important;
+}
+.cardRightView {
+  padding-top: 25px;
+  font-weight: bold;
+  align-items: center;
+}
+.cardLeftView {
+  display: flex;
+  align-items: center;
+}
+.selected {
+  background-color: #f8a12fc2;
+}
+.actionBtns {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+}
+.actionBtnsWrwpper {
+  height: 80%;
+  align-self: center;
+}
+
+.addBtn,
+.removeBtn {
+  background: #f8a22f 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  border-radius: 50px !important;
+}
+.addBtn {
+  margin-bottom: 20px;
+}
+
+.removeBtn {
+  margin-top: 20px;
+}
+
+.cardMinHeight {
+  min-height: 580px;
+  max-height: 590px;
+  overflow: auto;
+}
+
+.totalAmount {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}

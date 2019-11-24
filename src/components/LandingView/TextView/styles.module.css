@@ -1,0 +1,51 @@
+.text_wrapper {
+  height: 600px;
+  width: 88%;
+  margin: auto;
+  margin-top: 100px;
+  align-items: left;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text {
+  font-size: 62px;
+  width: 520px;
+}
+
+.ptext {
+  width: 420px;
+  color: #242424;
+  opacity: 0.5;
+  font-size: 18px;
+}
+
+.btnOF {
+  padding: 5px;
+  background: #f8a22f 0% 0% no-repeat padding-box;
+  width: 140px;
+  opacity: 1;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  border-radius: 50px !important;
+}
+
+.btnOF:hover {
+  background-color: #f8a12fc2;
+}
+
+.icon_wrapper {
+  padding: 25px 0px;
+  width: 140px;
+  display: flex;
+  color: rgb(208, 208, 208);
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon_wrapper icon {
+  width: 30px;
+}
