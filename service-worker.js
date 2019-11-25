@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/totalcolud-food/precache-manifest.c5a92d0663b576083da700129deeed9a.js"
+  "/totalcolud-food/precache-manifest.5771dfc4f07642878b42cf694b2d96c8.js"
 );
 
 self.addEventListener('message', (event) => {

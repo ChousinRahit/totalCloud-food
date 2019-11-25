@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/totalcolud-food/static/css/main.64316de6.chunk.css",
-    "main.js": "/totalcolud-food/static/js/main.b4378ade.chunk.js",
-    "main.js.map": "/totalcolud-food/static/js/main.b4378ade.chunk.js.map",
+    "main.js": "/totalcolud-food/static/js/main.b4b45973.chunk.js",
+    "main.js.map": "/totalcolud-food/static/js/main.b4b45973.chunk.js.map",
     "runtime-main.js": "/totalcolud-food/static/js/runtime-main.1323c44d.js",
     "runtime-main.js.map": "/totalcolud-food/static/js/runtime-main.1323c44d.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "/totalcolud-food/static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.12c4e699.chunk.js": "/totalcolud-food/static/js/2.12c4e699.chunk.js",
     "static/js/2.12c4e699.chunk.js.map": "/totalcolud-food/static/js/2.12c4e699.chunk.js.map",
     "index.html": "/totalcolud-food/index.html",
-    "precache-manifest.c5a92d0663b576083da700129deeed9a.js": "/totalcolud-food/precache-manifest.c5a92d0663b576083da700129deeed9a.js",
+    "precache-manifest.5771dfc4f07642878b42cf694b2d96c8.js": "/totalcolud-food/precache-manifest.5771dfc4f07642878b42cf694b2d96c8.js",
     "service-worker.js": "/totalcolud-food/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/totalcolud-food/static/css/2.b0bb7f2c.chunk.css.map",
     "static/css/main.64316de6.chunk.css.map": "/totalcolud-food/static/css/main.64316de6.chunk.css.map",
@@ -25,6 +25,6 @@
     "static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.12c4e699.chunk.js",
     "static/css/main.64316de6.chunk.css",
-    "static/js/main.b4378ade.chunk.js"
+    "static/js/main.b4b45973.chunk.js"
   ]
 }

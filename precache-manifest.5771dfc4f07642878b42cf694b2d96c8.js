@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "91562efb401bb7e5c24f8eb15f4172be",
+    "revision": "7f727b13f4785607f8f834ba753689f0",
     "url": "/totalcolud-food/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/totalcolud-food/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "a83da07213def78ff5f4",
+    "revision": "5bf71317d6c1be8a182a",
     "url": "/totalcolud-food/static/css/main.64316de6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/totalcolud-food/static/js/2.12c4e699.chunk.js"
   },
   {
-    "revision": "a83da07213def78ff5f4",
-    "url": "/totalcolud-food/static/js/main.b4378ade.chunk.js"
+    "revision": "5bf71317d6c1be8a182a",
+    "url": "/totalcolud-food/static/js/main.b4b45973.chunk.js"
   },
   {
     "revision": "d03a760f0cd514b71ce1",
