@@ -1,17 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import classes from "./styles.module.css";
 import SingleItem from "./singleItem";
-import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 
-import {
-  Container,
-  Card,
-  Button,
-  CardTitle,
-  CardText,
-  Row,
-  Col
-} from "reactstrap";
+import { Container, Card, Button, CardTitle, Row, Col } from "reactstrap";
 
 import list1 from "../../assets/list1.png";
 import list2 from "../../assets/list2.jpg";
@@ -74,10 +65,10 @@ const ChooseView = () => {
   return (
     <div className={classes.ChooseView_wrapper}>
       <div className={classes.overlaybg}>
-        <Container >
+        <Container className={classes.cWrapper}>
           <Row className={classes.chooseRow}>
             <Col md="5">
-              <Card body className={classes.cardMinHeight}>
+              <Card className={classes.cardMinHeight}>
                 <CardTitle>
                   <h3 className={classes.cardHeading}>Available Options</h3>
                 </CardTitle>
@@ -108,23 +99,27 @@ const ChooseView = () => {
               </div>
             </Col>
             <Col md="5">
-              <Card body className={classes.cardMinHeight}>
+              <Card className={classes.cardMinHeight}>
                 <CardTitle>
                   <h3 className={classes.cardHeading}>Your Cart</h3>
                 </CardTitle>
-                {selectedItems.map(i => (
-                  <SingleItem
-                    key={i.id}
-                    id={i.id}
-                    src={i.src}
-                    name={i.name}
-                    price={i.price}
-                    sSnapShot={sSnapShot}
-                    isSelected={
-                      selectedID[0] == i.id && selectedID[1] === "rem"
-                    }
-                  />
-                ))}
+                {selectedItems.length > 0 ? (
+                  selectedItems.map(i => (
+                    <SingleItem
+                      key={i.id}
+                      id={i.id}
+                      src={i.src}
+                      name={i.name}
+                      price={i.price}
+                      sSnapShot={sSnapShot}
+                      isSelected={
+                        selectedID[0] == i.id && selectedID[1] === "rem"
+                      }
+                    />
+                  ))
+                ) : (
+                  <div className={classes.emptyCart}>Add items to cart</div>
+                )}
                 <div className={classes.totalAmount}>
                   <p>Total amount</p>
                   <span className="t-b">${getTotalAmount()}</span>

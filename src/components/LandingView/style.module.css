@@ -36,7 +36,8 @@
 .nav_links {
   list-style: none;
   padding-top: 20px;
-  margin-left: 90px;
+  margin-left: 60px;
+  display: inline-table;
 }
 .nav_links li {
   display: inline-block;
@@ -80,4 +81,3 @@
   left: 48%;
   top: 94%;
 }
-

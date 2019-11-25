@@ -16,6 +16,7 @@
 .cardHeading {
   text-align: center;
   font-size: 22px;
+  padding: 20px;
 }
 .chooseRow {
   padding-top: 100px;
@@ -24,7 +25,9 @@
 .cardView {
   display: flex;
   justify-content: space-between;
-  margin: 10px 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .img_list {
@@ -55,13 +58,17 @@
 }
 .actionBtnsWrwpper {
   height: 80%;
+
   align-self: center;
 }
 
 .addBtn,
 .removeBtn {
-  background: #f8a22f 0% 0% no-repeat padding-box;
+  background: #f8a22f 0% 0% no-repeat padding-box !important;
   opacity: 1;
+  font-size: 14px !important;
+  padding-left: 4px !important;
+  padding-right: 4px !important;
   border: none;
   cursor: pointer;
   transition: all 0.3s ease 0s;
@@ -83,6 +90,21 @@
 
 .totalAmount {
   margin-top: auto;
+  background-color: #f8a12fc2;
   display: flex;
   justify-content: space-between;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.emptyCart {
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  color: rgb(142, 142, 142);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.cWrapper {
+  max-width: 1180px !important;
 }
