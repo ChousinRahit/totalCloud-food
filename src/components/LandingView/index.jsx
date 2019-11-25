@@ -29,13 +29,13 @@ const LandingView = () => {
         <nav>
           <ul className={classes.nav_links}>
             <li>
-              <a href="/about">ABOUT</a>
+              <a href="/">ABOUT</a>
             </li>
             <li>
-              <a href="/ofood">OUR FOOD</a>
+              <a href="/">OUR FOOD</a>
             </li>
             <li>
-              <a href="/plans">PLANS</a>
+              <a href="/">PLANS</a>
             </li>
           </ul>
         </nav>
